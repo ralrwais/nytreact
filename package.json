@@ -1,0 +1,29 @@
+{
+  "name": "nytreact",
+  "version": "1.0.0",
+  "description": "react app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ralrwais/nytreact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ralrwais/nytreact/issues"
+  },
+  "homepage": "https://github.com/ralrwais/nytreact#readme",
+  "dependencies": {
+    "babel-core": "^6.25.0",
+    "react": "^15.6.0",
+    "react-dom": "^15.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0"
+  }
+}
