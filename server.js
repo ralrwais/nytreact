@@ -18,7 +18,7 @@ app.use(bodyParser.json({type:'application/vnd.api+json'}));
 app.use(express.static('./public'));
 
 
-mongoose.connect('insert mlb here');
+mongoose.connect('mongodb://heroku_xqcmgtcq:mhafoc2lnhh2e3lvhu570t5im0@ds127962.mlab.com:27962/heroku_xqcmgtcq');
 var db = mongoose.connection;
 
 db.on('error', function (err) {

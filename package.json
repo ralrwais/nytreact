@@ -19,6 +19,8 @@
   "homepage": "https://github.com/ralrwais/nytreact#readme",
   "dependencies": {
     "babel-core": "^6.25.0",
+    "mongoose": "^4.10.6",
+    "morgan": "^1.8.2",
     "react": "^15.6.0",
     "react-dom": "^15.6.0"
   },
